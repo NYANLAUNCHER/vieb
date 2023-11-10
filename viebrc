@@ -1,0 +1,37 @@
+" vim: ft=vim
+" TODO:
+" - add readline keybindings
+" - have layout like QB, tabline on top and statusbar on bottom
+" - create command(s) to manage sessions
+" - setup erwic for desmos
+
+" note:
+" - tabrules = on deletion, goto last opened tab or tab to left
+
+" Settings
+set adblocker=update
+set downloadmethod=confirm
+set searchengine='https://search.brave.com/search?q=%s'
+set tabclosefocus=left
+set tabreopenposition=right
+
+
+" Commands
+"command session-save
+"command session-load
+
+
+" Mappings
+
+" Readline mappings
+cmap <C-a> <Home>
+cmap <C-e> <End>
+cmap <A-f> <C-Right>
+cmap <A-b> <C-Left>
+cmap <C-h> <BS>
+cmap <C-b> <Left>
+cmap <C-f> <Right>
+cmap <C-k> <S-End><BS>
+cmap <C-u> <S-Home><BS>
+cmap <C-w> <C-S-Left><BS>
+
